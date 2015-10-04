@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">YelpTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="consumerkey">dNl7EGgoB_pjDRKixQywbw</string>
+    <string name="consumersecret">ZwO8YpCE97xdGOuifEL40rezX8A</string>
+    <string name="token">gW9cP5kVp3NUWhtv5cXouoiBWF8rURdD</string>
+    <string name="tokensecret">sjAKHpwr5CsX2Op58sNV6qKpz1c</string>
+    <string name="title_activity_maga">MagaActivity</string>
+    <string name="title_activity_maps_test">MapsTest</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="magaFoods">MagaFoods</string>
+    <string name="magaIt">Maga It</string>
+    <string name="RandomCuisines">Random Cuisines</string>
+    <string name="RandomFoods">Random Foods</string>
+    <string name="Choose">My Choice</string>
+    <string name="search">MagaSearch</string>
+    <string name="redo">Please Enter a Valid Term</string>
+    <string name="back">Go Back</string>
+</resources>

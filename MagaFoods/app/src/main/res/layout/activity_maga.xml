@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajinkya.magafoods.MagaActivity"
+    android:id="@+id/magaactivity"
+    android:background="@color/presentationColor"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/apptop" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/entryForm"
+        android:text="Search Term:"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:focusable="false"
+        android:layout_marginTop="59dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="59dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearInLayout">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RandomCuisines"
+            android:id="@+id/randomCuisines"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:onClick="onRandomCuisines"
+            android:textColor="@color/abc_primary_text_material_dark"
+            style="@android:style/TextAppearance.Medium"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RandomFoods"
+            android:id="@+id/randomFoods"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="650dp"
+            android:onClick="onRandomFood"
+            android:textColor="@color/abc_primary_text_material_dark"
+            style="@android:style/TextAppearance.Medium"/>
+
+            ></LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Choose"
+        android:id="@+id/chooseButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:onClick="onChooseFood"
+        android:textColor="@color/abc_primary_text_material_dark"
+        style="@android:style/TextAppearance.Medium" />
+
+</LinearLayout>
